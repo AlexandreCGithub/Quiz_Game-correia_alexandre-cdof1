@@ -1,10 +1,10 @@
-Quelle est la capitale de la France, Berlin, Rome, Madrid, Paris, Paris
-Quelle est la capitale du Japon, Tokyo, Beijing, Seoul, Bangkok, Tokyo
-Quelle est la capitale du Brésil, Bogotá, Brasilia, Buenos Aires, Rio de Janeiro, Brasilia
-Quelle est la capitale de la Russie, Moscow, St. Petersburg, Kiev, Warsaw, Moscow
-Quelle est la capitale de l'Australie, Sydney, Auckland, Canberra, Melbourne, Canberra
-Quelle est la capitale du Canada, Toronto, Vancouver, Ottawa, Montreal, Ottawa
-Quelle est la capitale de l'Inde, New Delhi, Islamabad, Dhaka, Colombo, New Delhi
-Quelle est la capitale de l'Afrique du Sud, Nairobi, Johannesburg, Cape Town, Pretoria, Johannesburg
-Quelle est la capitale de l'Allemagne, Vienna, Berlin, Amsterdam, Zurich, Berlin
-Quelle est la capitale du Mexique, Mexico City, Buenos Aires, Lima, Santiago, Mexico City
+Quand a eu lieu la Declaration d'Independance des Etats-Unis, 1776, 1789, 1812, 1492, 1776
+En quelle annee a commence la Premiere Guerre mondiale, 1901, 1914, 1939, 1945, 1914
+Quand a eu lieu la Revolution française, 1689, 1789, 1804, 1917, 1789
+En quelle année la Guerre de Secession a-t-elle pris fin, 1865, 1776, 1918, 1945, 1865
+Quand a eu lieu la Guerre froide, 1945, 1918, 1939, 1989, 1945
+En quelle année l'Empire romain a-t-il ete fonde, 27 av. J.-C., 476 apr. J.-C., 753 av. J.-C., 1 apr. J.-C., 753 av. J.-C.
+Quand a eu lieu la Revolution industrielle, 1765, 1820, 1901, 1914, 1765
+En quelle année l'homme a marché pour la première fois sur la Lune, 1959, 1969, 1979, 1989, 1969
+Quand a eu lieu la découverte de l'Amerique par Christophe Colomb, 1492, 1776, 1804, 1917, 1492
+En quelle année la Premiere Guerre mondiale a-t-elle pris fin, 1918, 1939, 1945, 1914, 1918
