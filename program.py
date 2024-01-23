@@ -21,7 +21,7 @@ def poser_question(question, reponses, bonne_reponse):
         return False
 
 def main():
-    fichier_quiz = "C:/Users/lauj4/Documents/Quiz_Game-correia_alexandre-cdof1/questions_answers_list.txt"
+    fichier_quiz = "questions_answers_list.txt"
     score = 0
 
     try:
