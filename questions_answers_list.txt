@@ -8,3 +8,13 @@ Quand a eu lieu la Revolution industrielle, 1765, 1820, 1901, 1914, 1765
 En quelle année l'homme a marché pour la première fois sur la Lune, 1959, 1969, 1979, 1989, 1969
 Quand a eu lieu la découverte de l'Amerique par Christophe Colomb, 1492, 1776, 1804, 1917, 1492
 En quelle année la Premiere Guerre mondiale a-t-elle pris fin, 1918, 1939, 1945, 1914, 1918
+En quelle année la Révolution industrielle a-t-elle commencé, 1820, 1901, 1914, 1765, 1765
+Quand a eu lieu la première marche de l'homme sur la Lune, 1979, 1989, 1969, 1959, 1969
+Quelle est l'année de la découverte de l'Amérique par Christophe Colomb, 1804, 1917, 1776, 1492, 1492
+Quand a pris fin la Première Guerre mondiale, 1939, 1945, 1914, 1918, 1918
+Quel est le plus grand océan du monde, Atlantique, Indien, Arctique, Pacifique, Pacifique
+Qui est l'auteur de "Romeo et Juliette", Dickens, Austen, Orwell, Shakespeare, Shakespeare
+Quel est le symbole chimique de l'or, Ag, Fe, Cu, Au, Au
+Quel pays est réputé pour ses koalas et kangourous, Brésil, Canada, Inde, Australie, Australie
+Quelle est la capitale du Japon, Pékin, Séoul, Bangkok, Tokyo, Tokyo
+Qui a peint la Joconde, Vincent van Gogh, Pablo Picasso, Claude Monet, Leonardo da Vinci, Leonardo da Vinci

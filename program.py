@@ -1,4 +1,5 @@
 import os
+import random
 
 def poser_question(question, reponses, bonne_reponse):
     print(question)
@@ -23,7 +24,6 @@ def poser_question(question, reponses, bonne_reponse):
 def main():
     fichier_quiz = "questions_answers_list.txt"
     score = 0
-
     try:
         with open(fichier_quiz, "r") as file:
             lignes = file.readlines()
