@@ -24,27 +24,38 @@ def poser_question(question, reponses, bonne_reponse):
 def main():
     fichier_quiz = "questions_answers_list.txt"
     score = 0
+    try:
+        with open(fichier_quiz, "r") as file:
+            lignes = file.readlines()
+    except FileNotFoundError:
+        print(f"Le fichier {fichier_quiz} n'a pas été trouvé.")
+        return
+    except Exception as e:
+        print(f"Une erreur s'est produite lors de la lecture du fichier : {e}")
+        return
 
-    with open(fichier_quiz, "r") as file:
-        lignes = file.readlines()[:10]  # Read only the first 10 lines
-
-    num_questions = len(lignes)
-    print(f"Le quiz contient {num_questions} questions.")
-
-    random.shuffle(lignes)  # Shuffle the order of questions
+    if len(lignes) == 0:
+        print("Le fichier ne contient aucune question.")
+        return
 
     for ligne in lignes:
-        elements = ligne.strip().split(", ")
-        question = elements[0]
-        reponses = elements[1:-1]
-        bonne_reponse = elements[-1]
-        if poser_question(question, reponses, bonne_reponse):
-            score += 1
-        input("Appuyez sur Entrée pour continuer...")  # Wait for user to press Enter
-        os.system('cls' if os.name == 'nt' else 'clear')
+        try:
+            elements = ligne.strip().split(", ")
+            question = elements[0]
+            reponses = elements[1:-1]
+            bonne_reponse = elements[-1]
+            if poser_question(question, reponses, bonne_reponse):
+                score += 1
+            input("Appuyez sur Entrée pour continuer...")  # Attendez que l'utilisateur appuie sur Entrée
+            os.system('cls' if os.name == 'nt' else 'clear')
+        except IndexError:
+            print("Erreur : Format de ligne incorrect dans le fichier.")
+            return
+        except Exception as e:
+            print(f"Une erreur s'est produite : {e}")
+            return
 
-    print("Terminé. Votre score est de " + str(score) + " sur " + str(num_questions))
+    print(f"Terminé. Votre score est de {score} sur {len(lignes)}")
 
 if __name__ == "__main__":
     main()
-
