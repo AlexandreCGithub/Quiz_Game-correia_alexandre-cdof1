@@ -22,6 +22,7 @@ def poser_question(question, reponses, bonne_reponse):
         return False
 
 def main():
+    os.system('cls' if os.name == 'nt' else 'clear')
     fichier_quiz = "questions_answers_list.txt"
     score = 0
     try:
@@ -38,6 +39,7 @@ def main():
         print("Le fichier ne contient aucune question.")
         return
 
+    print("----------------------------------------------------------------------\n\n               WELCOME ON THIS QUIZ ! HAVE FUN ! \n\n----------------------------------------------------------------------\n\n")
     for ligne in lignes:
         try:
             elements = ligne.strip().split(", ")
